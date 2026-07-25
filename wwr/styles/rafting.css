@@ -17,6 +17,38 @@ body {
     color: var(--primary-color);
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: var(--accent-color);
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    margin: 16px;
+    padding: 8px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: grid;
+    grid-template-columns: 100px;
+    color: var(--heading-font);
+    text-decoration: none;
+
+}
+
 header,
 main,
 footer {
@@ -30,12 +62,30 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
 p,
 section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+.history-section img {
+    display: flex;
+    justify-self: center;
+    width: 30%;
+    height: auto;
+}
+
+.history-section p {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.adventure-section figure img {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+
 }
 
 .socialmedia a {
@@ -69,9 +119,9 @@ h1 {
 
 article {
     position: relative;
-    bottom: 15px;
+    bottom: 150px;
     background-color: var(--accent-color);
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .hero article img {
