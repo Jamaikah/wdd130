@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Basic HTML Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <label for="q1">1. What does HTML stand for?</label>
+                <input type="text" id="q1" name="q1" required>
+
+                <label for="q2">2. What are the optional table sections in HTML, and what does each
+                    section do?</label>
+                <textarea name="q2" id="q2" rows="4"></textarea>
+
+                <label for="q3">3. What are the main structural elements of a basic HTML
+                    document?</label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="1">&lt;html&gt; &lt;head&gt; &lt;body&gt; &lt;footer&gt;</option>
+                    <option value="2">&lt;title&gt; &lt;head&gt; &lt;body&gt;</option>
+                    <option value="3">&lt;html&gt; &lt;head&gt; &lt;body&gt;
+                    </option>
+                </select>
+
+                <label for="q4">4. How many main structural elements does a basic HTML document
+                    have?</label>
+                <input type="text" name="q4" id="q4" required>
+
+                <button type="submit">Submit Quiz</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
