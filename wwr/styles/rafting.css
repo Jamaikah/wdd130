@@ -81,11 +81,21 @@ article {
     flex-direction: column-reverse;
 }
 
-.adventure-section figure img {
+.adventure-section figure {
     display: flex;
     flex-direction: row;
-    width: 25%;
+}
 
+.adventure-section figure img {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.adventure-section figure figcaption {
+    margin-top: 10px;
+    text-align: center;
 }
 
 .socialmedia a {
