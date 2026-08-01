@@ -152,35 +152,19 @@ footer {
     margin-top: 10px;
 }
 
-main p:first-child {
-    font-size: 1.9rem;
+main h1 {
+    background-color: transparent;
+    opacity: 1;
+    position: static;
+    top: auto;
     padding: 0;
+    font-size: 1.7rem;
     text-align: center;
     margin: 2px;
+    width: auto;
 }
 
-main p:nth-child(2) {
-    font-size: 1.1rem;
-    padding: 0;
-    text-align: center;
-    margin: 2px;
-}
-
-main p:nth-child(3) {
-    font-size: 1.1rem;
-    padding: 0;
-    text-align: center;
-    margin: 2px;
-}
-
-main p:nth-child(4) {
-    font-size: 1.1rem;
-    padding: 0;
-    text-align: center;
-    margin: 2px;
-}
-
-main p:nth-child(5) {
+main p {
     font-size: 1.1rem;
     padding: 0;
     text-align: center;
