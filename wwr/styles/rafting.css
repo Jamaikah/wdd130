@@ -171,6 +171,14 @@ main p {
     margin: 2px;
 }
 
+form p {
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 25px;
+}
+
 .form-container {
     display: flex;
     gap: 40px;
