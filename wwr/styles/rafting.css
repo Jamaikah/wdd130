@@ -27,7 +27,7 @@ header {
 nav {
     display: flex;
     justify-content: right;
-    margin: 16px;
+    margin: 40px;
     padding: 8px;
 }
 
@@ -81,21 +81,21 @@ article {
     flex-direction: column-reverse;
 }
 
-.adventure-section figure {
+.adventure-section {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
 }
 
-.adventure-section figure img {
-    width: 25%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
+.adventure-section img {
+    width: 130px;
 }
 
-.adventure-section figure figcaption {
-    margin-top: 10px;
-    text-align: center;
+.adventure-section figcaption {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
 }
 
 .socialmedia a {
@@ -116,7 +116,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -144,7 +144,7 @@ h2 {
     background-color: var(--accent-color);
     text-align: center;
     margin-bottom: 10px;
-
+    margin-top: 15px;
 }
 
 footer {
@@ -155,7 +155,7 @@ footer {
 main h1 {
     background-color: transparent;
     opacity: 1;
-    position: static;
+    position: relative;
     top: auto;
     padding: 0;
     font-size: 1.7rem;
@@ -186,7 +186,7 @@ form p {
 }
 
 fieldset {
-    border: solid 1px var(--accent-color);
+    border: none;
 }
 
 fieldset figure img {
@@ -194,7 +194,6 @@ fieldset figure img {
     align-content: center;
     flex-direction: row;
     width: 100px;
-
 }
 
 .employees {
